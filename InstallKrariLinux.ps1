@@ -1,6 +1,6 @@
 # Download the background image from our github
 $filePath = "~\images"
-wget -O "$filepath" "https://github.com/krari-linux/krari-linux/krarilinux-wallpaper.png"
+wget -O "$filepath" "https://raw.githubusercontent.com/krari-linux/krari-linux/main/krarilinux-wallpaper.png"
 # Set the image as a background
 $signature = @"
 [DllImport("user32.dll", CharSet = CharSet.Auto)]
